@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "codegen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd .. && spago build && spago bundle-module --platform node -y -n -s -t codegen/bundle/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "^0.17.18"
+  }
+}
